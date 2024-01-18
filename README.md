@@ -41,6 +41,12 @@ Run the script using the following command:
 pipenv run python app.py
 ```
 
+Run as contaimer:
+```bash
+podman run -e OFFTOKEN="<YOUR GENERATED TOKEN>" ghcr.io/backchristoffer/rhea-errata:latest
+```
+
+
 Example output:
 
 ```bash
