@@ -54,7 +54,6 @@ Advisory ID: RHEA-2023:2164
 Type: Product Enhancement Advisory
 Synopsis: rpm-ostree bug fix and enhancement update
 Publish Date: 2023-05-09 05:02:07 UTC
-Affected System Count: 1
 Details: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2164
 Systems: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2164/systems
 
@@ -64,7 +63,6 @@ Advisory ID: RHEA-2023:2187
 Type: Product Enhancement Advisory
 Synopsis: ostree bug fix and enhancement update
 Publish Date: 2023-05-09 05:03:04 UTC
-Affected System Count: 1
 Details: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2187
 Systems: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2187/systems
 ```
