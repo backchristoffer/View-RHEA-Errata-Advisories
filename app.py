@@ -90,7 +90,6 @@ def search_and_print_rhea_advisories():
                 print(f"Synopsis: {advisory['synopsis']}")
                 print(f"Publish Date: {formatted_publish_date}")
                 print(f"Details: {advisory['details']}")
-                print(f"Systems: {advisory['systems']}")
                 print("\n" + "-"*50 + "\n")
         else:
             print("No RHEA advisories found.")
