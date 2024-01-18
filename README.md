@@ -1,8 +1,8 @@
-# Red Hat Errata Advisory Script
+# Red Hat RHEA Errata Advisory Script
 
 ## Overview
 
-This Python script retrieves Red Hat Errata advisories and prints relevant information in a formatted manner. It uses the Red Hat Management API to fetch advisories and display details such as Advisory ID, Type, Synopsis, Publish Date, Affected System Count, Details, and Systems.
+This Python script retrieves Red Hat RHEA Errata advisories and prints relevant information in a formatted manner. It uses the Red Hat Management API to fetch advisories and display details such as Advisory ID, Type, Synopsis, Publish Date, Affected System Count, Details, and Systems.
 
 ## Prerequisites
 
@@ -37,4 +37,26 @@ Run the script using the following command:
 
 ```bash
 pipenv run python app.py
+```
+
+Example output:
+
+```bash
+Advisory ID: RHEA-2023:2164
+Type: Product Enhancement Advisory
+Synopsis: rpm-ostree bug fix and enhancement update
+Publish Date: 2023-05-09 05:02:07 UTC
+Affected System Count: 1
+Details: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2164
+Systems: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2164/systems
+
+--------------------------------------------------
+
+Advisory ID: RHEA-2023:2187
+Type: Product Enhancement Advisory
+Synopsis: ostree bug fix and enhancement update
+Publish Date: 2023-05-09 05:03:04 UTC
+Affected System Count: 1
+Details: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2187
+Systems: https://api.access.redhat.com/management/v1/errata/RHEA-2023:2187/systems
 ```
