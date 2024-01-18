@@ -9,6 +9,8 @@ This Python script retrieves Red Hat RHEA Errata advisories and prints relevant 
 Before using the script, ensure you have the following:
 
 - Python 3.x installed
+- Red Hat account and access to https://access.redhat.com/management/api
+- Offline token generated from https://access.redhat.com/management/api
 
 ## Installation
 
@@ -25,7 +27,7 @@ Before using the script, ensure you have the following:
     pipenv install
     ```
 
-3. Create a `.env` file with your Red Hat API offline token:
+3. Create a `.env` file with your Red Hat API offline token (Token can be generated https://access.redhat.com/management/api):
 
     ```
     OFFTOKEN=your_red_hat_offline_token
